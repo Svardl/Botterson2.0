@@ -6569,11 +6569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nisv\\source\\repos\\Botteron2.0\\Botteron2.0\\Botteron2.0.csproj",
+      "projectUniqueName": "C:\\Users\\nisv\\Documents\\Botterson\\Botterson2.0\\Botteron2.0\\Botteron2.0\\Botteron2.0.csproj",
       "projectName": "Botteron2.0",
-      "projectPath": "C:\\Users\\nisv\\source\\repos\\Botteron2.0\\Botteron2.0\\Botteron2.0.csproj",
+      "projectPath": "C:\\Users\\nisv\\Documents\\Botterson\\Botterson2.0\\Botteron2.0\\Botteron2.0\\Botteron2.0.csproj",
       "packagesPath": "C:\\Users\\nisv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nisv\\source\\repos\\Botteron2.0\\Botteron2.0\\obj\\",
+      "outputPath": "C:\\Users\\nisv\\Documents\\Botterson\\Botterson2.0\\Botteron2.0\\Botteron2.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

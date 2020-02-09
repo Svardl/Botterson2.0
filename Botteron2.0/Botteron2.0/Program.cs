@@ -23,7 +23,6 @@ namespace Botteron2._0 {
         public bool dontChange = false;
         public static List<int> banList = new List<int>();
         public static Riddles CurrRiddle;
-        public bool isProd = true;
 
         static void Main(string[] args) => new Program().RunBotterson().GetAwaiter().GetResult();
         public static MongoCrud db;
@@ -35,7 +34,7 @@ namespace Botteron2._0 {
 
             db = new MongoCrud("Botterson");
 
-            string token = "";
+            string token = "NjczNDY2MTE5OTMxMjk3Nzkz.Xj_4-w.kJG1joxBypGpD67HxwJQwdJSeRM";
             var mongo = new MongoClient("mongodb+srv://Botterson:Botterson@bottersondb-op6k5.mongodb.net/test?retryWrites=true&w=majority");            
 
             //banList.Add(6962);
@@ -146,12 +145,10 @@ namespace Botteron2._0 {
         private async Task HandleCommand(SocketMessage arg) {
 
             var message = arg as SocketUserMessage;
-            if (!isProd) {
                 var id = (message.Channel as SocketGuildChannel).Guild.Id;
                 if (id == 150219519166513152) {
                     return;
                 }
-            }
 
             var context = new SocketCommandContext(_client, message);
             if (message.Author.IsBot) return;
