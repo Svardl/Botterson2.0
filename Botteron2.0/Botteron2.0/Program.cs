@@ -23,7 +23,7 @@ namespace Botteron2._0 {
         public bool dontChange = false;
         public static List<int> banList = new List<int>();
         public static Riddles CurrRiddle;
-        public bool isProd = false;
+        public bool isProd = true;
 
         static void Main(string[] args) => new Program().RunBotterson().GetAwaiter().GetResult();
         public static MongoCrud db;
@@ -35,13 +35,12 @@ namespace Botteron2._0 {
 
             db = new MongoCrud("Botterson");
 
-            string token = "NjczNDY2MTE5OTMxMjk3Nzkz.XjadJA.Bz-iGrtgw5xW3XU70Mi6JqDshWM";
-            var mongo = new MongoClient("mongodb+srv://Botterson:Botterson@bottersondb-op6k5.mongodb.net/test?retryWrites=true&w=majority");
-            
+            string token = "";
+            var mongo = new MongoClient("mongodb+srv://Botterson:Botterson@bottersondb-op6k5.mongodb.net/test?retryWrites=true&w=majority");            
 
-            banList.Add(6962);
-            db.SetRandomRiddle();
-            
+            //banList.Add(6962);
+            db.SetRandomRiddle(); 
+
 
             string path = System.IO.Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "//bad.txt";
             badWords = File.ReadAllLines(path).ToList();
@@ -66,14 +65,15 @@ namespace Botteron2._0 {
             foreach(var online in OnlineUsers) {
 
                 if(!DbUsers.Any(u=> u == online.DiscriminatorValue)) {
-                    //Create new user in dataase
+                    //Create new user in database
                     UserDb newUser = new UserDb() {
                         UserID = online.DiscriminatorValue,
                         Username = online.Username,
                         Greeting = null,
                         RiddlePoints = 0,
                         Warnings = 0,
-                        LastOnline = null  
+                        LastOnline = null,
+                        DoWarn = true
                     };
                     db.AddNewUser(newUser);
                 }
@@ -81,7 +81,6 @@ namespace Botteron2._0 {
         }
 
         public async Task RegisterCommands() {
-
             _client.MessageReceived += HandleCommand;
             _client.GuildMemberUpdated += HandleUserUpdate;
             _client.UserJoined += HandleNewUser;
@@ -99,7 +98,9 @@ namespace Botteron2._0 {
                     Warnings = 0,
                     Greeting = null,
                     RiddlePoints = 0,
-                    LastOnline = null
+                    LastOnline = null,
+                    DoWarn = true
+                    
                 };
                 db.AddNewUser(userDb);
             }
@@ -110,6 +111,7 @@ namespace Botteron2._0 {
                 if (banList.Any(id => id == before.DiscriminatorValue) && before.Nickname != after.Nickname) {
                     await after.ModifyAsync(u => u.Nickname = before.Nickname);
                     dontChange = true;
+                    await after.SendMessageAsync("https://media3.giphy.com/media/9NLYiOUxnKAJLIycEv/giphy.gif?cid=790b761147c7a95c91265422f8e860a25f433fa2b5bba283&rid=giphy.gif");
                 }
             }
             else {
@@ -155,7 +157,7 @@ namespace Botteron2._0 {
             if (message.Author.IsBot) return;
 
             int argPos = 0;
-            if (message.HasStringPrefix("!!", ref argPos)) {
+            if (message.HasStringPrefix("!", ref argPos)) {
                 var result = await _commands.ExecuteAsync(context, argPos, _services);
                 if (!result.IsSuccess)
                     Console.WriteLine(result.ErrorReason);
@@ -193,10 +195,11 @@ namespace Botteron2._0 {
             if (resList.Count != 0) {
                 for (int i = 0; i < resList.Count; i++) {
                     if (i != 0 && i == resList.Count - 1) {
-                        combined += " and " + resList[i];
+                        combined = combined.TrimEnd(',');
+                        combined += " and " +"\""+resList[i]+"\"";
                     }
                     else {
-                        combined += ""+resList[i];
+                        combined += ""+"\""+resList[i]+"\",";
                     }
                 }
                 int numWar = IncrementWarning(message.Author.DiscriminatorValue);
@@ -209,14 +212,15 @@ namespace Botteron2._0 {
                     try {
                         await ChangeName((SocketGuildUser)message.Author, badWords[badIndex], 10);
                         await message.Channel.SendMessageAsync("Aright " + message.Author.Username + ". I've had enough of your little outbursts. Enjoy your new nickname. It might be changed back in an hour, who knows");
+                        await message.Channel.SendMessageAsync(message.Author.ToString() + " your punishment is over");
                     }
                     catch (Exception ex) {
                         await message.Channel.SendMessageAsync("Felix, you absolute fuck");
                     }
-                    await message.Channel.SendMessageAsync(message.Author.ToString() + " your punishment is over");
+                   
                 }
-                else
-                    await message.Channel.SendMessageAsync(message.Author.ToString() + " said " + combined + ". you think that makes you seem cool? You now have "+ numWar+ " warnings");
+                else if(db.LoadRecordsById<UserDb>(message.Author.DiscriminatorValue).DoWarn)
+                    await message.Channel.SendMessageAsync(message.Author.ToString() + " said " + combined + ". You think that makes you seem cool? You now have "+ numWar+ " warnings");
             } 
         }
         private async Task ChangeName(SocketGuildUser user, string name, int time=-1) {

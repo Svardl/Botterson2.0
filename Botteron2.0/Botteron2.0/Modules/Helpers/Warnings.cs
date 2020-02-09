@@ -15,6 +15,7 @@ namespace Botteron2._0.Modules.Helpers {
         public int RiddlePoints { get; set; }
         public bool? Greeting { get; set; }
         public DateTime? LastOnline { get; set; }
+        public bool DoWarn { get; set; }
     }
 
     public class Riddles {

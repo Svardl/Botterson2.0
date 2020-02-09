@@ -111,7 +111,7 @@ namespace Botteron2._0.Modules {
             if (!user.Greeting.HasValue || !user.Greeting.Value) {
                 user.Greeting = true;
                 Program.db.Update(user);
-                await ReplyAsync("Thanks! You will now recieive a greeting when you log in to Discord");
+                await ReplyAsync("Thanks! You will now receive a greeting when you log in to Discord");
             }
             else {
                 await ReplyAsync("You were already subscribed to the greeting service but thanks for your continued support");
@@ -132,7 +132,23 @@ namespace Botteron2._0.Modules {
                 await Task.Delay(3000);
                 await ReplyAsync("Prick");
             }
+        }
 
+
+        [Command("warning")]
+        public async Task Warning() {
+
+            var user = Program.db.LoadRecordsById<UserDb>(Context.User.DiscriminatorValue);
+            user.DoWarn = !user.DoWarn;
+
+            if (user.DoWarn) {
+                await ReplyAsync("You will now receive warning messages from me when you use bad words. Here's to bettering ourselves!");
+            }
+            else {
+                await ReplyAsync("You will not receive anymore warnings when using bad language");
+            }
+            Program.db.Update(user);
+        
         }
 
     }
