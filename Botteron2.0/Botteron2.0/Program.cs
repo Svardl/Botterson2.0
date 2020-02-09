@@ -34,7 +34,7 @@ namespace Botteron2._0 {
 
             db = new MongoCrud("Botterson");
 
-            string token = "NjczNDY2MTE5OTMxMjk3Nzkz.Xj_4-w.kJG1joxBypGpD67HxwJQwdJSeRM";
+            string token = "";
             var mongo = new MongoClient("mongodb+srv://Botterson:Botterson@bottersondb-op6k5.mongodb.net/test?retryWrites=true&w=majority");            
 
             //banList.Add(6962);

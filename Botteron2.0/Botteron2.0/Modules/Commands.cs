@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Botteron2._0.Modules.Helpers;
+using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 
@@ -149,6 +150,12 @@ namespace Botteron2._0.Modules {
             }
             Program.db.Update(user);
         
+        }
+
+        [Command("say")]
+        public async Task say(string message) {
+           var channel = Context.Client.GetChannel(150219519166513152);
+           await (channel as IMessageChannel).SendMessageAsync(message);
         }
 
     }
