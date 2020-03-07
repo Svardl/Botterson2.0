@@ -16,6 +16,9 @@ namespace Botteron2._0.Modules.Helpers {
         public bool? Greeting { get; set; }
         public DateTime? LastOnline { get; set; }
         public bool DoWarn { get; set; }
+        public int MinutesPlayed { get; set; }
+        public DateTime LastPlayed { get; set; }
+        public Dictionary<string, int> GameTime {get; set;}
     }
 
     public class Riddles {
@@ -25,4 +28,17 @@ namespace Botteron2._0.Modules.Helpers {
         public string Answer { get; set; }
 
     }
+
+    public class Banned {
+        public ObjectId _id { get; set; }
+        public int BannedUserId { get; set; }
+        public DateTime BanDate { get; set; }
+        public int ForgiveCount { get; set; }
+        public string OldName { get; set; }
+        public string NewName { get; set; }
+        public List<int> Forgivers { get; set; }
+
+    }
+
+
 }

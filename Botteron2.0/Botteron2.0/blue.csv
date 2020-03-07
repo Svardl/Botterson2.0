@@ -1,0 +1,999 @@
+Green,bald,Deagle,Aardwolf,aardvark
+Red,beautiful,P90,African buffalo,air
+Yellow,chubby,Fighter Jet,African elephant,airplane
+Orange,clean,Tank,African leopard,airport
+Black,dazzling,Sword,Albatross,alarm
+White,drab,Hammer,Alligator,alligator
+Brown,elegant,Club,Alpaca,alphabet
+Pink,fancy,Axe,Alpaca,ambulance
+Silver,fit,Crossbow,American buffalo (bison),animal
+Grey,flabby,Spear,American robin,ankle
+Navy Blue ,glamorous,Pistol,Amphibian,army
+Gold,gorgeous,Rifle,Anaconda,answer
+Cyan,handsome,Helicopter,Angelfish,ant
+Olive,long,Missle,Anglerfish,antelope
+Blue,attractive,AK47,Aardvark,apple
+Maroon,magnificent,Rocket,Ant,arm
+Purple,muscular,Dagger,Anteater,armchair
+Deep Pink,plain,Staff,Antelope,arrow
+Salmon,plump,Tank,Antlion,asparagus
+,quaint,Grenade,Ape,baby
+,scruffy,Bomb,Aphid,back
+,shapely,Spikes,Arabian leopard,backbone
+,short,Knife,Arctic Fox,bacon
+,skinny,Bullet,Arctic Wolf,badge
+,stocky,,Armadillo,badger
+,ugly,,Arrow crab,bag
+,unkempt,,Asp,bagpipe
+,unsightly,,Ass (donkey),bait
+,alive,,Baboon,bakery
+,better,,Badger,ball
+,careful,,Bald eagle,balloon
+,clever,,Bali cattle,bamboo
+,dead,,Bandicoot,banana
+,easy,,Barnacle,band
+,famous,,Barracuda,bandana
+,gifted,,Basilisk,bangle
+,hallowed,,Bass,banjo
+,helpful,,Bat,bank
+,important,,Beaked whale,baseball
+,inexpensive,,Bear,basket
+,mealy,,Beaver,basketball
+,mushy,,Bedbug,bat
+,odd,,Bee,bath
+,poor,,Beetle,bathroom
+,powerful,,Bird,bathtub
+,rich,,Bison,battery
+,shy,,Black panther,battle
+,tender,,Black widow spider,bay
+,unimportant,,Blackbird,beach
+,uninterested,,Blue bird,bead
+,vast,,Blue jay,bean
+,wrong,,Blue whale,bear
+,,,Boa,beard
+,,,Boar,beast
+,,,Bobcat,beat
+,,,Bobolink,beauty
+,,,Bonobo,beaver
+,,,Booby,bed
+,,,Bovid,bedroom
+,,,Box jellyfish,bee
+,,,"Buffalo, African",beef
+,,,"Buffalo, American (bison)",beetle
+,,,Bug,bell
+,,,Butterfly,belt
+,,,Buzzard,bench
+,,,Camel,beret
+,,,Canid,berry
+,,,Canidae,bicycle
+,,,Cape buffalo,bike
+,,,Capybara,bird
+,,,Cardinal,birthday
+,,,Caribou,bite
+,,,Carp,black
+,,,Cat,blade
+,,,Cat,blanket
+,,,Cat,block
+,,,Caterpillar,blood
+,,,Catfish,blouse
+,,,Catshark,blow
+,,,Cattle,board
+,,,Cattle,boat
+,,,Cattle,bobcat
+,,,Centipede,body
+,,,Cephalopod,bolt
+,,,Chameleon,bone
+,,,Cheetah,bonsai
+,,,Chickadee,book
+,,,Chicken,bookcase
+,,,Chicken,booklet
+,,,Chicken breeds,boot
+,,,Chimpanzee,border
+,,,Chinchilla,bottle
+,,,Chipmunk,bottom
+,,,Cicada,boundary
+,,,Clam,bow
+,,,Clownfish,bowling
+,,,Cobra,box
+,,,Cockroach,boy
+,,,Cod,brain
+,,,Condor,brake
+,,,Constrictor,branch
+,,,Coral,brass
+,,,Cougar,bread
+,,,Cow,break
+,,,Coyote,breakfast
+,,,Crab,breath
+,,,Crane,brick
+,,,Crane fly,bridge
+,,,Crawdad,broccoli
+,,,Crayfish,brochure
+,,,Cricket,brother
+,,,Crocodile,brush
+,,,Crow,bubble
+,,,Cuckoo,bucket
+,,,Deer,building
+,,,Dingo,bulb
+,,,Dinosaur,bull
+,,,Dog,bulldozer
+,,,Dog,bumper
+,,,Dog,bun
+,,,Dolphin,bus
+,,,Domestic Bactrian camel,bush
+,,,Domestic canary,butter
+,,,Domestic dromedary camel,button
+,,,Domestic duck,cabbage
+,,,Domestic goat,cactus
+,,,Domestic goose,cafe
+,,,Domestic guineafowl,cake
+,,,Domestic hedgehog,calculator
+,,,Domestic pig,calendar
+,,,Domestic pigeon,calf
+,,,Domestic rabbit,call
+,,,Domestic silkmoth,camel
+,,,Domestic silver fox,camera
+,,,Domestic turkey,camp
+,,,Donkey,candle
+,,,Donkey,canoe
+,,,Donkey,canvas
+,,,Dormouse,cap
+,,,Dove,captain
+,,,Dragon,car
+,,,Dragonfly,card
+,,,Duck,cardboard
+,,,Duck breeds,cardigan
+,,,Dung beetle,carpenter
+,,,Eagle,carrot
+,,,Earthworm,cartoon
+,,,Eel,cat
+,,,Elephant,caterpillar
+,,,Elephant seal,cathedral
+,,,Elk,cattle
+,,,Falcon,cauliflower
+,,,Fancy mouse,cave
+,,,Fancy rat,CD
+,,,Fancy rat varieties,ceiling
+,,,Felidae,celery
+,,,Ferret,cello
+,,,Ferret,cement
+,,,Firefly,cemetery
+,,,Fish,cereal
+,,,Flamingo,chain
+,,,Flea,chair
+,,,Fly,chalk
+,,,Flyingfish,channel
+,,,Fowl,character
+,,,Fox,cheek
+,,,Frog,cheese
+,,,Fruit bat,cheetah
+,,,Gamefowl,cherry
+,,,Gayal,chess
+,,,Gazelle,chest
+,,,Gecko,chick
+,,,Gerbil,chicken
+,,,Giant panda,children
+,,,Giant squid,chimpanzee
+,,,Gibbon,chin
+,,,Gila monster,chive
+,,,Giraffe,chocolate
+,,,Goat,church
+,,,Goat,cicada
+,,,Goldfish,cinema
+,,,Goldfish,circle
+,,,Goose,city
+,,,Goose breeds,clam
+,,,Gopher,clarinet
+,,,Gorilla,click
+,,,Grasshopper,clock
+,,,Great blue heron,close
+,,,Great white shark,closet
+,,,Grizzly bear,cloth
+,,,Ground shark,cloud
+,,,Ground sloth,cloudy
+,,,Guinea pig,coach
+,,,Guinea pig,coal
+,,,Guinea pig,coast
+,,,Guppy,coat
+,,,Guppy,cobweb
+,,,Haddock,cockroach
+,,,Halibut,cocoa
+,,,Hammerhead shark,coffee
+,,,Hamster,coil
+,,,Hare,coin
+,,,Harrier,coke
+,,,Hawk,cold
+,,,Hedgehog,collar
+,,,Hermit crab,college
+,,,Hippopotamus,colt
+,,,Hookworm,comb
+,,,Hornet,comics
+,,,Horse,comma
+,,,Horse,computer
+,,,Horse,copy
+,,,Hoverfly,corn
+,,,Hummingbird,cost
+,,,Humpback whale,cotton
+,,,Hyena,couch
+,,,Iguana,cougar
+,,,Impala,country
+,,,Irukandji jellyfish,course
+,,,Jackal,court
+,,,Jaguar,cousin
+,,,Jellyfish,cow
+,,,Junglefowl,crab
+,,,Kangaroo,crack
+,,,Kangaroo mouse,cracker
+,,,Kangaroo rat,crate
+,,,Kingfisher,crayfish
+,,,Koala,crayon
+,,,Koi,cream
+,,,Komodo dragon,creek
+,,,Krill,cricket
+,,,Lab rat,crocodile
+,,,laboratory rat strains,crop
+,,,Ladybug,crow
+,,,Lamprey,crowd
+,,,Land snail,crown
+,,,Landfowl,cucumber
+,,,Leech,cup
+,,,Lemur,cupboard
+,,,Leopard,curtain
+,,,Leopon,curve
+,,,Lion,cushion
+,,,Lizard,cyclone
+,,,Llama,dad
+,,,Llama,daffodil
+,,,Lobster,daisy
+,,,Locust,dance
+,,,Loon,daughter
+,,,Louse,day
+,,,Lungfish,deer
+,,,Lynx,denim
+,,,Mackerel,dentist
+,,,Magpie,desert
+,,,Mammal,desk
+,,,Manatee,dessert
+,,,Mandrill,detective
+,,,Manta ray,dew
+,,,Marmoset,diamond
+,,,Mastodon,dictionary
+,,,Meadowlark,dinghy
+,,,Meerkat,dinosaur
+,,,Mink,dirt
+,,,Mockingbird,dish
+,,,Mole,dog
+,,,Mongoose,doll
+,,,Monitor lizard,dollar
+,,,Monkey,door
+,,,Moose,dragon
+,,,Mosquito,dragonfly
+,,,Moth,drain
+,,,Mountain goat,drawer
+,,,Mouse,dream
+,,,Mule,dress
+,,,Muskox,dresser
+,,,Narwhal,drill
+,,,New World quail,drink
+,,,Newt,drum
+,,,Nightingale,dryer
+,,,Ocelot,duck
+,,,Octopus,duckling
+,,,Old World quail,dungeon
+,,,Opossum,dust
+,,,Orangutan,eagle
+,,,Orca,ear
+,,,Ostrich,earth
+,,,Otter,earthquake
+,,,Owl,eel
+,,,Ox,egg
+,,,Panda,eggplant
+,,,Panther,elbow
+,,,Panthera hybrid,elephant
+,,,Parakeet,energy
+,,,Parrot,engine
+,,,Parrotfish,equipment
+,,,Partridge,evening
+,,,Peacock,eye
+,,,Peafowl,eyebrow
+,,,Pelican,face
+,,,Penguin,fact
+,,,Perch,factory
+,,,Peregrine falcon,fairies
+,,,Pheasant,family
+,,,Pig,fan
+,,,Pig,fang
+,,,Pigeon,farm
+,,,Pigeon breeds,fear
+,,,Pike,feast
+,,,Pilot whale,feather
+,,,Pinniped,feet
+,,,Piranha,ferryboat
+,,,Planarian,field
+,,,Platypus,fight
+,,,Polar bear,finger
+,,,Pony,fire
+,,,Porcupine,fireplace
+,,,Porpoise,fish
+,,,Portuguese man o' war,flag
+,,,Possum,flame
+,,,Prairie dog,flood
+,,,Prawn,floor
+,,,Praying mantis,flower
+,,,Primate,flute
+,,,Ptarmigan,fly
+,,,Puffin,foam
+,,,Puma,fog
+,,,Python,food
+,,,Quail,foot
+,,,Quelea,football
+,,,Quokka,forehead
+,,,Rabbit,forest
+,,,Rabbit,fork
+,,,Raccoon,fountain
+,,,Rainbow trout,fox
+,,,Rat,frame
+,,,Rattlesnake,freckle
+,,,Raven,freezer
+,,,Ray (Batoidea),frog
+,,,Ray (Rajiformes),frost
+,,,Red panda,fruit
+,,,Reindeer,fuel
+,,,Reptile,fur
+,,,Rhinoceros,furniture
+,,,Ringneck dove,game
+,,,Roadrunner,garage
+,,,Rodent,garden
+,,,Rooster,garlic
+,,,Roundworm,gas
+,,,Saber-toothed cat,gate
+,,,Sailfish,gear
+,,,Salamander,ghost
+,,,Salmon,giraffe
+,,,Sawfish,girl
+,,,Scale insect,glass
+,,,Scallop,glove
+,,,Scorpion,glue
+,,,Sea lion,goal
+,,,Sea slug,goat
+,,,Sea snail,gold
+,,,Seahorse,goldfish
+,,,Shark,golf
+,,,Sheep,gorilla
+,,,Sheep,government
+,,,Sheep breeds,grape
+,,,Shrew,grass
+,,,Shrimp,grasshopper
+,,,Siamese fighting fish,grease
+,,,Silkworm,grill
+,,,Silverfish,group
+,,,Skink,guitar
+,,,Skunk,gum
+,,,Sloth,gym
+,,,Slug,gymnast
+,,,Smelt,hail
+,,,Snail,hair
+,,,Snake,haircut
+,,,Snipe,hall
+,,,Snow leopard,hamburger
+,,,Society finch,hammer
+,,,Sockeye salmon,hamster
+,,,Sole,hand
+,,,Sparrow,handball
+,,,Sperm whale,handle
+,,,Spider,hardware
+,,,Spider monkey,harmonica
+,,,Spoonbill,harmony
+,,,Squid,hat
+,,,Squirrel,hate
+,,,Star-nosed mole,hawk
+,,,Starfish,head
+,,,Steelhead trout,headlight
+,,,Stingray,health
+,,,Stoat,heart
+,,,Stork,heat
+,,,Sturgeon,heaven
+,,,Sugar glider,hedge
+,,,Swallow,height
+,,,Swan,helicopter
+,,,Swift,helmet
+,,,Swordfish,help
+,,,Swordtail,hen
+,,,Tahr,hill
+,,,Takin,hip
+,,,Tapir,hippopotamus
+,,,Tarantula,history
+,,,Tarsier,hockey
+,,,Tasmanian devil,hole
+,,,Termite,holiday
+,,,Tern,home
+,,,Thrush,honey
+,,,Tick,hood
+,,,Tiger,hook
+,,,Tiger shark,horn
+,,,Tiglon,horse
+,,,Toad,hose
+,,,Tortoise,hospital
+,,,Toucan,hour
+,,,Trapdoor spider,house
+,,,Tree frog,hurricane
+,,,Trout,hyena
+,,,Tuna,ice
+,,,Turkey,icicle
+,,,Turkey breeds,idea
+,,,Turtle,ink
+,,,Tyrannosaurus,insect
+,,,Urial,instrument
+,,,Vampire bat,Internet
+,,,Vampire squid,invention
+,,,Vicuna,iron
+,,,Viper,island
+,,,Vole,jacket
+,,,Vulture,jaguar
+,,,Wallaby,jail
+,,,Walrus,jam
+,,,Warbler,jar
+,,,Wasp,jaw
+,,,Water Boa,jeans
+,,,Water buffalo,jeep
+,,,Water buffalo,jelly
+,,,Water buffalo breeds,jellyfish
+,,,Weasel,jet
+,,,Whale,jewel
+,,,Whippet,joke
+,,,Whitefish,journey
+,,,Whooping crane,judge
+,,,Wildcat,judo
+,,,Wildebeest,juice
+,,,Wildfowl,jump
+,,,Wolf,jumper
+,,,Wolverine,kangaroo
+,,,Wombat,karate
+,,,Woodpecker,kayak
+,,,Worm,kettle
+,,,Wren,key
+,,,X-ray fish,keyboard
+,,,Xerinae,kick
+,,,Yak,kiss
+,,,Yak,kitchen
+,,,Yellow perch,kite
+,,,Zebra,kitten
+,,,Dragon,knee
+,,,Unicorn,knife
+,,,,knight
+,,,,knot
+,,,,lace
+,,,,ladybug
+,,,,lake
+,,,,lamb
+,,,,lamp
+,,,,land
+,,,,lasagna
+,,,,laugh
+,,,,laundry
+,,,,leaf
+,,,,leather
+,,,,leek
+,,,,leg
+,,,,lemonade
+,,,,leopard
+,,,,letter
+,,,,lettuce
+,,,,library
+,,,,lift
+,,,,light
+,,,,lightning
+,,,,lily
+,,,,line
+,,,,lion
+,,,,lip
+,,,,lipstick
+,,,,liquid
+,,,,list
+,,,,litter
+,,,,lizard
+,,,,loaf
+,,,,lobster
+,,,,lock
+,,,,locket
+,,,,locust
+,,,,look
+,,,,lotion
+,,,,love
+,,,,lunch
+,,,,lynx
+,,,,macaroni
+,,,,machine
+,,,,magazine
+,,,,magic
+,,,,magician
+,,,,mail
+,,,,mailbox
+,,,,mailman
+,,,,makeup
+,,,,map
+,,,,marble
+,,,,mark
+,,,,market
+,,,,mascara
+,,,,mask
+,,,,match
+,,,,meal
+,,,,meat
+,,,,mechanic
+,,,,medicine
+,,,,memory
+,,,,men
+,,,,menu
+,,,,message
+,,,,metal
+,,,,mice
+,,,,middle
+,,,,milk
+,,,,milkshake
+,,,,mint
+,,,,minute
+,,,,mirror
+,,,,mist
+,,,,mistake
+,,,,mitten
+,,,,Monday
+,,,,money
+,,,,monkey
+,,,,month
+,,,,moon
+,,,,morning
+,,,,mosquito
+,,,,motorboat
+,,,,motorcycle
+,,,,mountain
+,,,,mouse
+,,,,moustache
+,,,,mouth
+,,,,music
+,,,,mustard
+,,,,nail
+,,,,name
+,,,,napkin
+,,,,neck
+,,,,needle
+,,,,nest
+,,,,net
+,,,,news
+,,,,night
+,,,,noise
+,,,,noodle
+,,,,nose
+,,,,note
+,,,,notebook
+,,,,number
+,,,,nut
+,,,,oak
+,,,,oatmeal
+,,,,ocean
+,,,,octopus
+,,,,office
+,,,,oil
+,,,,olive
+,,,,onion
+,,,,orange
+,,,,orchestra
+,,,,ostrich
+,,,,otter
+,,,,oven
+,,,,owl
+,,,,ox
+,,,,oxygen
+,,,,oyster
+,,,,packet
+,,,,page
+,,,,pail
+,,,,pain
+,,,,paint
+,,,,pair
+,,,,pajama
+,,,,pamphlet
+,,,,pan
+,,,,pancake
+,,,,panda
+,,,,pansy
+,,,,panther
+,,,,pants
+,,,,paper
+,,,,parcel
+,,,,parent
+,,,,park
+,,,,parrot
+,,,,party
+,,,,pasta
+,,,,paste
+,,,,pastry
+,,,,patch
+,,,,path
+,,,,pea
+,,,,peace
+,,,,peanut
+,,,,pear
+,,,,pedestrian
+,,,,pelican
+,,,,pen
+,,,,pencil
+,,,,pepper
+,,,,perfume
+,,,,person
+,,,,pest
+,,,,pet
+,,,,phone
+,,,,piano
+,,,,pickle
+,,,,picture
+,,,,pie
+,,,,pig
+,,,,pigeon
+,,,,pillow
+,,,,pilot
+,,,,pimple
+,,,,pin
+,,,,pipe
+,,,,pizza
+,,,,plane
+,,,,plant
+,,,,plantation
+,,,,plastic
+,,,,plate
+,,,,playground
+,,,,plot
+,,,,pocket
+,,,,poison
+,,,,police
+,,,,policeman
+,,,,pollution
+,,,,pond
+,,,,popcorn
+,,,,poppy
+,,,,porcupine
+,,,,postage
+,,,,postbox
+,,,,pot
+,,,,potato
+,,,,poultry
+,,,,powder
+,,,,power
+,,,,price
+,,,,printer
+,,,,prison
+,,,,pumpkin
+,,,,puppy
+,,,,pyramid
+,,,,queen
+,,,,question
+,,,,quicksand
+,,,,quill
+,,,,quilt
+,,,,rabbit
+,,,,radio
+,,,,radish
+,,,,raft
+,,,,rail
+,,,,railway
+,,,,rain
+,,,,rainbow
+,,,,raincoat
+,,,,rainstorm
+,,,,rake
+,,,,rat
+,,,,ravioli
+,,,,ray
+,,,,recorder
+,,,,rectangle
+,,,,refrigerator
+,,,,reindeer
+,,,,relatives
+,,,,restaurant
+,,,,reward
+,,,,rhinoceros
+,,,,rice
+,,,,riddle
+,,,,ring
+,,,,river
+,,,,road
+,,,,roast
+,,,,rock
+,,,,roll
+,,,,roof
+,,,,room
+,,,,rooster
+,,,,rose
+,,,,rowboat
+,,,,rubber
+,,,,sack
+,,,,sail
+,,,,sailboat
+,,,,sailor
+,,,,salad
+,,,,salmon
+,,,,salt
+,,,,sand
+,,,,sandwich
+,,,,sardine
+,,,,sauce
+,,,,sausage
+,,,,saw
+,,,,saxophone
+,,,,scarecrow
+,,,,scarf
+,,,,school
+,,,,scissors
+,,,,scooter
+,,,,scorpion
+,,,,screw
+,,,,screwdriver
+,,,,sea
+,,,,seagull
+,,,,seal
+,,,,seaplane
+,,,,seashore
+,,,,season
+,,,,seat
+,,,,second
+,,,,seed
+,,,,sentence
+,,,,servant
+,,,,shade
+,,,,shadow
+,,,,shallot
+,,,,shampoo
+,,,,shark
+,,,,shears
+,,,,sheep
+,,,,sheet
+,,,,shelf
+,,,,shell
+,,,,shield
+,,,,ship
+,,,,shirt
+,,,,shoe
+,,,,shoemaker
+,,,,shop
+,,,,shorts
+,,,,shoulder
+,,,,shovel
+,,,,shoe
+,,,,side
+,,,,sidewalk
+,,,,sign
+,,,,signature
+,,,,silk
+,,,,silver
+,,,,singer
+,,,,sink
+,,,,sister
+,,,,skin
+,,,,skirt
+,,,,sky
+,,,,sled
+,,,,slippers
+,,,,slope
+,,,,smoke
+,,,,snail
+,,,,snake
+,,,,sneeze
+,,,,snow
+,,,,snowflake
+,,,,snowman
+,,,,soap
+,,,,soccer
+,,,,sock
+,,,,sofa
+,,,,softball
+,,,,soldier
+,,,,son
+,,,,song
+,,,,sound
+,,,,soup
+,,,,soybean
+,,,,space
+,,,,spade
+,,,,spaghetti
+,,,,spark
+,,,,sparrow
+,,,,spear
+,,,,speedboat
+,,,,spider
+,,,,spike
+,,,,spinach
+,,,,sponge
+,,,,spoon
+,,,,spot
+,,,,sprout
+,,,,spy
+,,,,square
+,,,,squash
+,,,,squid
+,,,,squirrel
+,,,,stage
+,,,,staircase
+,,,,stamp
+,,,,star
+,,,,station
+,,,,steam
+,,,,steel
+,,,,stem
+,,,,step
+,,,,stew
+,,,,stick
+,,,,stitch
+,,,,stinger
+,,,,stomach
+,,,,stone
+,,,,stool
+,,,,sign
+,,,,stopwatch
+,,,,store
+,,,,storm
+,,,,story
+,,,,stove
+,,,,stranger
+,,,,straw
+,,,,stream
+,,,,string
+,,,,submarine
+,,,,sugar
+,,,,suit
+,,,,summer
+,,,,sun
+,,,,sunshine
+,,,,sunflower
+,,,,supermarket
+,,,,surfboard
+,,,,surname
+,,,,surprise
+,,,,sushi
+,,,,swallow
+,,,,swamp
+,,,,swan
+,,,,sweater
+,,,,sweatshirt
+,,,,sweets
+,,,,swing
+,,,,switch
+,,,,sword
+,,,,swordfish
+,,,,syrup
+,,,,table
+,,,,tabletop
+,,,,tadpole
+,,,,tail
+,,,,target
+,,,,tax
+,,,,taxi
+,,,,tea
+,,,,teacher
+,,,,team
+,,,,teeth
+,,,,television
+,,,,tennis
+,,,,tent
+,,,,textbook
+,,,,theater
+,,,,thistle
+,,,,thought
+,,,,thread
+,,,,throat
+,,,,throne
+,,,,thumb
+,,,,thunder
+,,,,thunderstorm
+,,,,ticket
+,,,,tie
+,,,,tiger
+,,,,tile
+,,,,time
+,,,,tire
+,,,,toad
+,,,,toast
+,,,,toe
+,,,,toilet
+,,,,tomato
+,,,,tongue
+,,,,tooth
+,,,,toothbrush
+,,,,toothpaste
+,,,,top
+,,,,tornado
+,,,,tortoise
+,,,,tower
+,,,,town
+,,,,toy
+,,,,tractor
+,,,,traffic
+,,,,trail
+,,,,train
+,,,,transport
+,,,,tray
+,,,,tree
+,,,,triangle
+,,,,trick
+,,,,trip
+,,,,trombone
+,,,,trouble
+,,,,trousers
+,,,,truck
+,,,,trumpet
+,,,,trunk
+,,,,t-shirt
+,,,,tub
+,,,,tuba
+,,,,tugboat
+,,,,tulip
+,,,,tuna
+,,,,tune
+,,,,Turkey
+,,,,turnip
+,,,,turtle
+,,,,TV
+,,,,twig
+,,,,twilight
+,,,,twine
+,,,,umbrella
+,,,,valley
+,,,,van
+,,,,vase
+,,,,vegetable
+,,,,veil
+,,,,vein
+,,,,vessel
+,,,,vest
+,,,,violin
+,,,,volcano
+,,,,volleyball
+,,,,vulture
+,,,,wall
+,,,,wallaby
+,,,,walrus
+,,,,washer
+,,,,wasp
+,,,,waste
+,,,,watch
+,,,,watchmaker
+,,,,water
+,,,,waterfall
+,,,,wave
+,,,,wax
+,,,,weapon
+,,,,weasel
+,,,,weather
+,,,,wedge
+,,,,whale
+,,,,wheel
+,,,,whip
+,,,,whistle
+,,,,wilderness
+,,,,willow
+,,,,wind
+,,,,window
+,,,,windscreen
+,,,,wing
+,,,,winter
+,,,,wire
+,,,,wish
+,,,,witch
+,,,,wolf
+,,,,woman
+,,,,wood
+,,,,wool
+,,,,word
+,,,,workshop
+,,,,worm
+,,,,wound
+,,,,wren
+,,,,wrench
+,,,,wrinkles
+,,,,wrist
+,,,,xylophone
+,,,,yacht
+,,,,yak
+,,,,yard
+,,,,yogurt
+,,,,zebra
+,,,,zipper
+,,,,zoo
